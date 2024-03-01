@@ -3,7 +3,7 @@
 import csv
 import statistics
 
-with open('C:/Users/Пк/Desktop/13/titanic.csv','r') as file:
+with open('titanic.csv','r') as file:
     reader = csv.DictReader(file)
     summ_price = 0
     ages = []
